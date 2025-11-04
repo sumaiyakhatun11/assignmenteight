@@ -10,7 +10,7 @@ const ShowAllApps = () => {
 
 
     return (
-        <div>
+        <div >
             <section class="bg-gray-50 py-10 px-6">
                 <div class="max-w-6xl mx-auto">
 
@@ -50,7 +50,7 @@ const ShowAllApps = () => {
             <div className='grid grid-cols-4 gap-2 m-10 p-3'>
                 {
                     appsData.map((appData) => (
-                        <ShowApps key={appData.id} appData={appData}></ShowApps>
+                        <ShowApps key={appData.id} appData={appData} ></ShowApps>
                     ))}
             </div>
 
