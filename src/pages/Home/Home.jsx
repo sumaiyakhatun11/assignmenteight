@@ -2,7 +2,7 @@ import React from 'react';
 import googleLogo from '../../assets/googleLogo.png'
 import appStore from '../../assets/appStore.png'
 import hero from '../../assets/hero.png'
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import ShowApps from '../../components/ShowApps/ShowApps';
 
 const Home = () => {
@@ -80,7 +80,8 @@ const Home = () => {
             </div>
 
             <div className='flex justify-center'>
-                <button className=' rounded-xl py-3 mb-10 px-10 bg-gradient-to-r from-purple-900 to-purple-400 text-white'>Show All</button>
+                <Link to='/apps'><button className=' rounded-xl py-3 mb-10 px-10 bg-gradient-to-r from-purple-900 to-purple-400 text-white'>Show All</button></Link>
+
             </div>
 
 

@@ -4,6 +4,7 @@ import gitHubLogo from '../../assets/gitHubLogo.png'
 import { IoHomeOutline } from "react-icons/io5";
 import { FaAppStore } from "react-icons/fa";
 import { MdInstallDesktop } from "react-icons/md";
+import { Link, Links } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -27,8 +28,10 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a><IoHomeOutline />Home</a></li>
-                    <li><a><FaAppStore />Apps</a></li>
+                    <Link to='/'> <li><a><IoHomeOutline />Home</a></li></Link>
+                    <Link to='/apps'><li><a><FaAppStore />Apps</a></li></Link>
+
+
                     <li><a><MdInstallDesktop />Installation</a></li>
                 </ul>
             </div>
