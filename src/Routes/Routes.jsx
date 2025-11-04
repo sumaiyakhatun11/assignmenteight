@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Root from '../pages/Root/Root'
 import Home from '../pages/Home/Home'
+import ShowAllApps from "../pages/ShowAllApps/ShowAllApps";
 
 
 
@@ -17,7 +18,14 @@ export const router = createBrowserRouter([
                 path: "/",
                 loader: () => fetch('/appsData.json'),
                 Component: Home,
-            }
+            },
+            {
+                index: true,
+                path: "/apps",
+                loader: () => fetch('/appsData.json'),
+                Component: ShowAllApps,
+            },
+
         ]
 
     },
