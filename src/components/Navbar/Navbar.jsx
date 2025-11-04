@@ -1,6 +1,9 @@
 import React from 'react';
 import navLogo from '../../assets/navLogo.png'
 import gitHubLogo from '../../assets/gitHubLogo.png'
+import { IoHomeOutline } from "react-icons/io5";
+import { FaAppStore } from "react-icons/fa";
+import { MdInstallDesktop } from "react-icons/md";
 
 const Navbar = () => {
     return (
@@ -13,25 +16,31 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a>Apps</a></li>
-                        <li><a>Installation</a></li>
+                        <li><a><IoHomeOutline />Home</a></li>
+                        <li><a><FaAppStore />Apps</a></li>
+                        <li><a><MdInstallDesktop />Installation</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl "><span><img src={navLogo} alt="" /></span><h1 className="text-5xl font-extrabold bg-gradient-to-r from-purple-700 to-indigo-500 bg-clip-text text-transparent">
+                <a className="btn btn-ghost text-xl "><span><img src={navLogo} alt="" /></span><h1 className="text-2xl font-extrabold bg-gradient-to-r from-purple-900 to-purple-400 bg-clip-text text-transparent text-white">
                     HERO.IO
                 </h1></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>Apps</a></li>
-                    <li><a>Installation</a></li>
+                    <li><a><IoHomeOutline />Home</a></li>
+                    <li><a><FaAppStore />Apps</a></li>
+                    <li><a><MdInstallDesktop />Installation</a></li>
                 </ul>
             </div>
             <div className=" navbar-end">
+                <a
+                    href="https://github.com/sumaiyakhatun11"
+                    target="_blank"
+                    rel="noopener noreferrer"
 
-                <button className='flex gap-3 rounded-xl py-2 px-3 bg-gradient-to-r from-purple-500 to-blue-500'><span><img src={gitHubLogo} alt="" /></span>Contribute</button>
+                >
+                    <button className='flex gap-3 rounded-xl py-2 px-3 bg-gradient-to-r from-purple-900 to-purple-400 text-white'><span><img src={gitHubLogo} alt="" /></span>Contribute</button>
+                </a>
             </div>
         </div>
     );

@@ -1,0 +1,662 @@
+[
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/3062/3062635.png",
+        "title": "Fitness Tracker",
+        "companyName": "HealthPlus",
+        "id": 1,
+        "description": "Fitness Tracker by HealthPlus is your ultimate companion for maintaining a healthy lifestyle. It allows you to track workouts, steps, calories, and monitor progress over time.",
+        "size": 45,
+        "reviews": 1200,
+        "ratingAvg": 4.5,
+        "downloads": 500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 600
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+        "title": "Budget Manager",
+        "companyName": "FinanceTools",
+        "id": 2,
+        "description": "Budget Manager helps you manage your income and expenses with charts, reports, and reminders for smarter budgeting.",
+        "size": 30,
+        "reviews": 800,
+        "ratingAvg": 4.2,
+        "downloads": 300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 340
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/2910/2910763.png",
+        "title": "Photo Editor Pro",
+        "companyName": "CreativeLab",
+        "id": 3,
+        "description": "Photo Editor Pro enhances your photos with filters, effects, and advanced editing tools for a professional touch.",
+        "size": 60,
+        "reviews": 1500,
+        "ratingAvg": 4.7,
+        "downloads": 750000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 870
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/906/906334.png",
+        "title": "Language Learner",
+        "companyName": "EduSmart",
+        "id": 4,
+        "description": "Language Learner teaches new languages with interactive lessons, pronunciation tools, and gamified challenges.",
+        "size": 55,
+        "reviews": 950,
+        "ratingAvg": 4.3,
+        "downloads": 420000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25
+            },
+            {
+                "name": "2 star",
+                "count": 35
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 340
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
+        "title": "Music Streamer",
+        "companyName": "SoundWave",
+        "id": 5,
+        "description": "Stream millions of songs, create playlists, and discover new artists with Music Streamer by SoundWave.",
+        "size": 70,
+        "reviews": 2000,
+        "ratingAvg": 4.6,
+        "downloads": 900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 600
+            },
+            {
+                "name": "5 star",
+                "count": 1100
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/414/414825.png",
+        "title": "Weather Forecast",
+        "companyName": "SkyTech",
+        "id": 6,
+        "description": "Get real-time weather updates, radar maps, and forecasts for multiple cities with Weather Forecast by SkyTech.",
+        "size": 25,
+        "reviews": 600,
+        "ratingAvg": 4.1,
+        "downloads": 250000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 250
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+        "title": "Recipe Book",
+        "companyName": "Foodies Inc.",
+        "id": 7,
+        "description": "Recipe Book offers thousands of recipes, video tutorials, and meal planning tools for every cooking level.",
+        "size": 50,
+        "reviews": 1100,
+        "ratingAvg": 4.4,
+        "downloads": 480000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 35
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 520
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/2910/2910765.png",
+        "title": "Task Manager",
+        "companyName": "ProductiveApps",
+        "id": 8,
+        "description": "Organize tasks, set deadlines, and track your productivity with Task Manager by ProductiveApps.",
+        "size": 35,
+        "reviews": 700,
+        "ratingAvg": 4.0,
+        "downloads": 320000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 220
+            },
+            {
+                "name": "5 star",
+                "count": 260
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1869/1869749.png",
+        "title": "Travel Explorer",
+        "companyName": "TripMate",
+        "id": 9,
+        "description": "Discover destinations, book hotels, and manage itineraries easily with Travel Explorer by TripMate.",
+        "size": 65,
+        "reviews": 950,
+        "ratingAvg": 4.5,
+        "downloads": 400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 350
+            },
+            {
+                "name": "5 star",
+                "count": 420
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/3602/3602145.png",
+        "title": "Meditation Guide",
+        "companyName": "Calmify",
+        "id": 10,
+        "description": "Relax your mind with guided meditations, sleep sounds, and mindfulness programs in Meditation Guide.",
+        "size": 40,
+        "reviews": 1050,
+        "ratingAvg": 4.8,
+        "downloads": 550000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 15
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 535
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/3097/3097136.png",
+        "title": "Study Planner",
+        "companyName": "EduTrack",
+        "id": 11,
+        "description": "Organize your study sessions, track goals, and stay productive with Study Planner by EduTrack.",
+        "size": 32,
+        "reviews": 500,
+        "ratingAvg": 4.3,
+        "downloads": 210000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 150
+            },
+            {
+                "name": "5 star",
+                "count": 200
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/4712/4712029.png",
+        "title": "Crypto Tracker",
+        "companyName": "FinTechPro",
+        "id": 12,
+        "description": "Monitor cryptocurrency prices, track your portfolio, and get real-time alerts with Crypto Tracker.",
+        "size": 55,
+        "reviews": 1600,
+        "ratingAvg": 4.6,
+        "downloads": 800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 140
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 880
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1828/1828859.png",
+        "title": "Notes Keeper",
+        "companyName": "MemoApps",
+        "id": 13,
+        "description": "Notes Keeper helps you take organized notes, attach images, and sync across devices securely.",
+        "size": 28,
+        "reviews": 400,
+        "ratingAvg": 4.0,
+        "downloads": 150000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 150
+            },
+            {
+                "name": "5 star",
+                "count": 100
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
+        "title": "Pet Care",
+        "companyName": "Animalia",
+        "id": 14,
+        "description": "Track pet vaccinations, set reminders, and find nearby vets with Pet Care by Animalia.",
+        "size": 40,
+        "reviews": 620,
+        "ratingAvg": 4.2,
+        "downloads": 280000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 110
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 255
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/4140/4140048.png",
+        "title": "Shopping Deals",
+        "companyName": "ShopSaver",
+        "id": 15,
+        "description": "Find discounts, coupons, and price drops instantly with Shopping Deals by ShopSaver.",
+        "size": 38,
+        "reviews": 900,
+        "ratingAvg": 4.1,
+        "downloads": 350000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 410
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1828/1828854.png",
+        "title": "Calendar Sync",
+        "companyName": "TimePro",
+        "id": 16,
+        "description": "Sync all your calendars, set reminders, and never miss an event again with Calendar Sync.",
+        "size": 27,
+        "reviews": 350,
+        "ratingAvg": 4.0,
+        "downloads": 180000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 100
+            },
+            {
+                "name": "5 star",
+                "count": 140
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/2203/2203124.png",
+        "title": "News Today",
+        "companyName": "InfoHub",
+        "id": 17,
+        "description": "Stay updated with global and local news through curated feeds with News Today by InfoHub.",
+        "size": 42,
+        "reviews": 800,
+        "ratingAvg": 4.3,
+        "downloads": 410000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 130
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 305
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/2089/2089679.png",
+        "title": "Sleep Tracker",
+        "companyName": "RestEasy",
+        "id": 18,
+        "description": "Track your sleep patterns, get personalized insights, and improve your rest with Sleep Tracker.",
+        "size": 50,
+        "reviews": 950,
+        "ratingAvg": 4.4,
+        "downloads": 390000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 350
+            },
+            {
+                "name": "5 star",
+                "count": 445
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1946/1946488.png",
+        "title": "Smart Home",
+        "companyName": "HomeConnect",
+        "id": 19,
+        "description": "Control your lights, thermostat, and security devices remotely with Smart Home by HomeConnect.",
+        "size": 75,
+        "reviews": 1300,
+        "ratingAvg": 4.5,
+        "downloads": 670000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 670
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1077/1077011.png",
+        "title": "Daily Journal",
+        "companyName": "MindLog",
+        "id": 20,
+        "description": "Record your thoughts, goals, and reflections daily with a simple and secure journaling app.",
+        "size": 33,
+        "reviews": 500,
+        "ratingAvg": 4.2,
+        "downloads": 210000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 90
+            },
+            {
+                "name": "4 star",
+                "count": 150
+            },
+            {
+                "name": "5 star",
+                "count": 220
+            }
+        ]
+    }
+]
