@@ -22,7 +22,7 @@ const Navbar = () => {
                         <li><a><MdInstallDesktop />Installation</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl "><span><img src={navLogo} alt="" /></span><h1 className="text-2xl font-extrabold bg-gradient-to-r from-purple-900 to-purple-400 bg-clip-text text-transparent text-white">
+                <a className="btn btn-ghost text-xl "><span><img src={navLogo} alt="" /></span><h1 className="text-2xl font-extrabold bg-gradient-to-r from-purple-900 to-purple-400 bg-clip-text text-transparent">
                     HERO.IO
                 </h1></a>
             </div>
@@ -30,9 +30,11 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1">
                     <Link to='/'> <li><a><IoHomeOutline />Home</a></li></Link>
                     <Link to='/apps'><li><a><FaAppStore />Apps</a></li></Link>
+                    <Link to='/installation'><li><a><MdInstallDesktop />Installation</a></li></Link>
 
 
-                    <li><a><MdInstallDesktop />Installation</a></li>
+
+
                 </ul>
             </div>
             <div className=" navbar-end">
