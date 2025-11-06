@@ -16,11 +16,18 @@ const AppsDetails = () => {
 
     useEffect(() => {
         // Simulate fetching or processing delay
-        if (appsData && appsData.length > 0) {
-            const foundApp = appsData.find((a) => a.id === appId);
-            setApp(foundApp);
-            setLoading(false);
-        }
+        const timer = setTimeout(() => {
+            if (appsData && appsData.length > 0) {
+                const foundApp = appsData.find((a) => a.id === appId);
+                setApp(foundApp);
+                setLoading(false);
+
+            }
+
+        }, 500)
+
+        return () => clearTimeout(timer);
+
     }, [appsData, appId]);
 
     useEffect(() => {

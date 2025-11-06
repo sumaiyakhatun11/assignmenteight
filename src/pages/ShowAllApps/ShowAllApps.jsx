@@ -10,31 +10,39 @@ const ShowAllApps = () => {
     const [filteredApps, setFilteredApps] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    // Simulate loading delay (or wait for loader data to populate)
+    // Initial loading when page mounts
     useEffect(() => {
-        if (appsData && appsData.length > 0) {
-            setFilteredApps(appsData);
-            setLoading(false);
-        }
+        const timer = setTimeout(() => {
+            if (appsData && appsData.length > 0) {
+                setFilteredApps(appsData);
+                setLoading(false);
+            }
+        }, 500);
+
+        return () => clearTimeout(timer);
     }, [appsData]);
 
+    // Handle search input
     const handleSearch = (e) => {
         const value = e.target.value;
         setSearchTerm(value);
+        setLoading(true); // show loading during search
 
-        const results = appsData.filter(app =>
-            app.title.toLowerCase().includes(value.toLowerCase())
-        );
+        // Simulate a short delay to display spinner
+        setTimeout(() => {
+            const results = appsData.filter(app =>
+                app.title.toLowerCase().includes(value.toLowerCase())
+            );
+            setFilteredApps(results);
+            setLoading(false);
 
-        setFilteredApps(results);
-
-        // Show toast if nothing matches
-        if (value.trim() !== '' && results.length === 0) {
-            toast.error('No apps found!', {
-                position: "top-center",
-                autoClose: 2000,
-            });
-        }
+            if (value.trim() !== '' && results.length === 0) {
+                toast.error('No apps found!', {
+                    position: "top-center",
+                    autoClose: 2000,
+                });
+            }
+        }, 300); // 300ms delay for search loading
     };
 
     if (loading) {
