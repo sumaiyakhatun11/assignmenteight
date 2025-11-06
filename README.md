@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🌐 AppVerse
+=======
+# 📱 App Store Dashboard
+>>>>>>> e9c164d67589dcecfb1731cb9e3cabf74ddcbd41
 
 A modern React-based web application that displays a collection of mobile and web apps with detailed insights such as ratings, downloads, and developer information.  
 Users can browse, search, and install applications with a responsive UI and dynamic charts.
@@ -7,7 +11,11 @@ Users can browse, search, and install applications with a responsive UI and dyna
 
 ## 🚀 Description
 
+<<<<<<< HEAD
 **AppVerse** is an interactive frontend project built with React and Tailwind CSS that showcases applications and their details fetched dynamically from local or remote data sources.  
+=======
+**App Store Dashboard** is an interactive frontend project built with React and Tailwind CSS that showcases applications and their details fetched dynamically from local or remote data sources.  
+>>>>>>> e9c164d67589dcecfb1731cb9e3cabf74ddcbd41
 
 The platform includes:
 - A **home page** listing all available apps.
