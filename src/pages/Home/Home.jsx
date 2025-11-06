@@ -71,7 +71,7 @@ const Home = () => {
                 <h1 className='font-bold text-3xl'>Trending Apps</h1>
                 <p>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className='grid grid-cols-4 gap-2 m-10 p-3'>
+            <div className='grid md:grid-cols-4 gap-2 m-10 p-3 grid-cols-1'>
                 {
                     appsData.slice(0, 8).map((appData) => (
                         <ShowApps key={appData.id} appData={appData}></ShowApps>

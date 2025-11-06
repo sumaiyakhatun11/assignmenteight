@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import ShowApps from '../../components/ShowApps/ShowApps';
 import { ToastContainer, toast } from 'react-toastify';
@@ -7,29 +7,44 @@ import 'react-toastify/dist/ReactToastify.css';
 const ShowAllApps = () => {
     const appsData = useLoaderData();
     const [searchTerm, setSearchTerm] = useState('');
+    const [filteredApps, setFilteredApps] = useState([]);
+    const [loading, setLoading] = useState(true);
 
-    // Filter apps based on search term
-    const filteredApps = appsData.filter(app =>
-        app.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    // Simulate loading delay (or wait for loader data to populate)
+    useEffect(() => {
+        if (appsData && appsData.length > 0) {
+            setFilteredApps(appsData);
+            setLoading(false);
+        }
+    }, [appsData]);
 
-    // Handle search input
     const handleSearch = (e) => {
         const value = e.target.value;
         setSearchTerm(value);
 
-        // If nothing matches, show toast once
-        if (value.trim() !== '' && filteredApps.length === 0) {
+        const results = appsData.filter(app =>
+            app.title.toLowerCase().includes(value.toLowerCase())
+        );
+
+        setFilteredApps(results);
+
+        // Show toast if nothing matches
+        if (value.trim() !== '' && results.length === 0) {
             toast.error('No apps found!', {
                 position: "top-center",
                 autoClose: 2000,
             });
-
         }
-
-
-
     };
+
+    if (loading) {
+        return (
+            <div className="flex flex-col items-center justify-center h-64">
+                <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-blue-600"></div>
+                <p className="mt-3 text-gray-600 font-medium">Loading apps...</p>
+            </div>
+        );
+    }
 
     return (
         <div>
@@ -39,7 +54,7 @@ const ShowAllApps = () => {
                     <div className="text-center mb-8">
                         <h2 className="text-3xl font-bold text-gray-900">Our All Applications</h2>
                         <p className="text-gray-500 mt-2">
-                            Explore All Apps on the Market developed by us. We code for Millions
+                            Explore all apps on the market developed by us. We code for millions.
                         </p>
                     </div>
 
@@ -67,7 +82,7 @@ const ShowAllApps = () => {
                 </div>
             </section>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 m-10 p-3'>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 m-10 p-3">
                 {filteredApps.length > 0 ? (
                     filteredApps.map((appData) => (
                         <ShowApps key={appData.id} appData={appData} />
